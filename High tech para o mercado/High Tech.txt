@@ -1,0 +1,10 @@
+Equipe : Alisson Gustavo, Allyson George, Hericc Rocha, Vitor Vieira 
+
+
+Setor : Vendas
+
+Tarefas : Geração de relatórios de vendas
+
+Solução : Dashboard automático com indicadores de vendas
+
+Justificação: A geração manual de relatórios de vendas demanda tempo dos colaboradores e pode gerar erros na coleta e organização dos dados. A utilização de um dashboard automático permite centralizar e atualizar as informações de vendas em tempo real, facilitando o acompanhamento dos resultados, a identificação de tendências e a tomada de decisões.
