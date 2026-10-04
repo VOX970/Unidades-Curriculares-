@@ -3,3 +3,173 @@ Leia primeiro o Manual !
 Requisições de Validação e Qualidade de Software:
 
 
+Leia primeiro o Manual !
+
+Requisições de Validação e Qualidade de Software:
+
+📌 Atividade 01: Validação e Verificação de Software - 25 de agosto de 2026:
+
+exercício prático de Garantia de Qualidade de Software (QA) aplicado ao sistema fictício AgendaFácil. Ela aborda conceitos fundamentais da disciplina:
+
+Parte 1: Avalia a mentalidade de testes e a importância de testar precocemente (Early Testing / Testes Precoces).
+
+Parte 2: Exercita a análise técnica e o refatoramento de requisitos ambíguos para torná-los mensuráveis e testáveis.
+
+Parte 3: Diferencia Verificação (conferir se o produto está sendo construído corretamente segundo as especificações e regras) 
+de Validação (executar e confirmar se o produto atende às necessidades reais do usuário).
+
+Parte 4: Classifica os conceitos da norma de testes entre Erro (equívoco humano), Defeito/Bug (imperfeição no documento ou código) 
+e Falha (comportamento incorreto em tempo de execução).
+
+Parte 5: Aplica os Sete Princípios Fundamentais do Teste de Software 
+(como a impossibilidade de testes exaustivos, o paradoxo do pesticida, a ilusão da ausência de erros e a concentração de defeitos).
+
+📌 Atividade 02 - Verificação, Validação ,Tipos e Classe - 26 de agosto de 2026 : 
+São 15h de uma quinta-feira. A empresa de cada grupo pretende colocar uma nova versão de seu produto em produção às 18h da sexta-feira. 
+A diretoria informa que o lançamento não poderá ser adiado sem uma justificativa técnica consistente,
+pois existem compromissos comerciais envolvidos. A equipe de desenvolvimento afirma: "As funcionalidades principais estão funcionando
+e os desenvolvedores já testaram."
+
+Porém, não existe tempo suficiente para testar todas as possibilidades. 
+A equipe de QA terá aproximadamente um dia útil para avaliar o risco da release. Vocês foram contratados como a equipe responsável pela qualidade. O CTO faz apenas uma pergunta: "Posso colocar isso em produção amanhã?"
+
+A resposta não poderá ser baseada em opinião. A equipe deverá reunir evidências, identificar riscos, 
+definir o que merece ser testado e apresentar uma recomendação executiva.
+
+---
+
+Regra principal
+
+Vocês NÃO possuem tempo para testar tudo.
+
+Por determinação da diretoria, poderão selecionar somente: 10 testes prioritários para compor a bateria inicial da release.
+
+Portanto, escolher um teste significa, necessariamente, deixar outro cenário sem cobertura. A equipe deverá assumir o risco das próprias decisões.
+
+📌 Atividade 03 - Verificação, Validação - 1 de setembro de 2026 :
+
+Decisão: REPROVADO / DEPLOY BLOQUEADO
+
+Principais Problemas:
+
+Segurança: O QR Code antigo continua válido por 47s após a transferência, permitindo fraude/duplicação de ingressos na catraca.
+
+Desempenho: O sistema já vacilou com 5 mil usuários simultâneos (meta de 95% estourou), e não suportará os 20 mil previstos para o festival.
+
+Qualidade/Requisitos: Contradições nas regras, falta de tratamento de erros na API (HTTP 500) 
+e falsa sensação de segurança vinda de testes antigos que não cobrem o novo código.
+
+📌 Atividade 04 - Quality Audit - 2 de setembro de 2026:
+
+No arquivo em anexo, estão disponíveis as orientações específicas para cada grupo.
+A atividade consistirá na avaliação de sites específicos sob a ótica da Qualidade de Software.
+Cada grupo será responsável por analisar um site diferente, totalizando 4 grupos e 4 sites.
+
+Durante a análise, cada grupo deverá avaliar o site designado e responder às 6 etapas propostas na atividade, 
+utilizando como base os conceitos de qualidade estudados em sala de aula.
+
+Ao final, o grupo deverá apresentar suas conclusões, 
+justificando os problemas identificados, os impactos percebidos na qualidade do software e as
+possíveis oportunidades de melhoria.
+
+📌Atividade 05 - Plano de Testes - 9 de setembro de 2026 :
+
+A empresa fictícia ConectaStart LTDA está desenvolvendo uma plataforma SaaS para conectar startups, investidores anjo,
+mentores e administradores. A plataforma será apresentada para parceiros estratégicos em 10 dias úteis.
+A equipe de desenvolvimento afirma que a release está “quase pronta”, mas ainda existem riscos importantes. 
+O Product Owner solicitou que a equipe de QA monte um Plano de Testes da Release 1.0, 
+priorizando o que precisa ser testado antes da demonstração.
+
+📌Atividade 07 - Casos de Testes e Critérios de Aceitação - 16 de setembro de 2026:
+
+Sua empresa recebeu uma versão candidata a produção de uma plataforma de comércio eletrônico. O Product Owner informa:
+“As funcionalidades principais parecem funcionar. Precisamos de uma avaliação do QA antes da release.”
+Não existe tempo para testar tudo. Seu trabalho será produzir evidências suficientes para recomendar ou não a liberação.
+
+📌Atividade 09: Arquitetura de Testes - 23 de setembro de 2026 :
+
+Objetivo
+
+Cada grupo deverá atuar como uma equipe de QA responsável por propor a arquitetura de testes de uma aplicação em fase de crescimento.
+
+A entrega não será uma lista de testes. O grupo deverá definir:
+ - quais camadas serão testadas;
+ - quais testes serão manuais;
+ - quais testes serão automatizados;
+ - quais ferramentas serão usadas;
+ - como a suíte será organizada;
+ - quais testes entram no pipeline;
+ - quais dados serão necessários;
+ - quais riscos a arquitetura precisa reduzir;
+ - como evitar uma pirâmide de testes invertida.
+
+📌Atividade 10 - Arquitetura de Testes - 2 de outubro de 2026 :
+
+Objetivo
+
+O aluno deverá atuar como Arquiteto de Testes contratado para reestruturar a estratégia de qualidade de uma plataforma digital que cresceu rapidamente, possui múltiplos módulos, integrações externas, APIs, web, mobile e pipeline ainda imaturo.
+
+A entrega deverá demonstrar capacidade de:
+ - diagnosticar falhas na arquitetura atual de testes;
+ - propor uma pirâmide de testes saudável;
+ - evitar o antipadrão do **Ice Cream Cone**;
+ - distribuir testes entre camadas;
+ - aplicar conceitos da **gTAA**;
+ - definir ferramentas;
+ - propor organização da suíte;
+ - planejar ambiente e massa de dados;
+ - estruturar execução em CI/CD;
+ - definir quality gates;
+ - propor métricas e relatórios;
+ - justificar decisões técnicas.
+
+📌 Atividade 08 - Casos de Testes e Critérios de Aceitação - 2 de outubro de 2026 :
+
+Contexto Profissional
+
+Você integra uma equipe de QA contratada por uma empresa de tecnologia financeira. 
+A empresa pretende utilizar uma solução de Internet Banking como referência para uma nova plataforma e solicitou uma avaliação de qualidade da versão candidata à homologação.
+
+Você receberá acesso ao sistema, porém não receberá:
+
+requisitos completos;
+casos de teste prontos;
+plano de testes;
+critérios de aceitação;
+documentação funcional detalhada.
+Sua primeira responsabilidade será compreender o produto.
+
+A equipe de negócio informou apenas:
+
+“Precisamos saber se os principais fluxos bancários apresentam comportamento suficientemente 
+consistente para avançar para uma rodada formal de homologação.”
+Sua entrega deverá demonstrar como um profissional de QA transforma um produto existente em: 
+
+Requisitos > Histórias > Critérios > Estratégia > Casos de Teste > Execução > Evidências > Decisão.
+
+Link da aplicação: https://parabank.parasoft.com/parabank/index.htm
+
+📌 Atividade 06 - Plano de Testes - 2 de outubro de 2026:
+
+Aqui está o resumo direto e objetivo do documento e da situação do projeto:
+
+Objetivo Geral: Validar a conformidade legal, financeira e operacional do aplicativo MediRoute Brasil (Release 1.0) no atendimento à Região Metropolitana do Recife.
+
+Escopo Prioritário: Foco nos fluxos críticos de medicamentos controlados e refrigerados, integrações de pagamento (Pix e cartão de crédito), segurança/permissões de usuário e atualização em tempo real do status de entrega.
+
+Cronograma Executivo: Execução de testes em 7 dias úteis, com plano de contingência focado nos 10 cenários de mais alto risco em 2 dias.
+
+Parecer Atual de QA (Decisão de Go/No-Go): NÃO RECOMENDADO PARA LIBERAÇÃO (NO-GO).
+
+Motivo da Vetagem: Foram mapeados falhas críticas que impedem o lançamento com segurança:
+
+Permissão de compra de medicamentos retidos por receita sem envio prévio de documentos, gerando risco legal e sanitário.
+
+Aprovação de pagamentos via Pix após o tempo limite (timeout), gerando risco de prejuízo financeiro.
+
+Acesso indevido de motoristas a telas administrativas de suporte, gerando vazamento de dados.
+
+Falha no registro da cadeia de frio durante a entrega de medicamentos refrigerados, descumprindo exigências normativas.
+
+
+
