@@ -1,5 +1,5 @@
 # Unidades-Curriculares-
-# 🎓 Portfólio Acadêmico
+#  Portfólio Acadêmico
 
 ## Alisson Gustavo Barros Evangelista
 
@@ -8,7 +8,7 @@
 
 ---
 
-### 📚 Sobre o portfólio
+###  Sobre o portfólio
 
 Este repositório reúne minha trajetória acadêmica durante o curso de **Análise e Desenvolvimento de Sistemas**.
 
@@ -18,7 +18,7 @@ O objetivo é manter meus trabalhos organizados e apresentar minha evolução du
 
 ---
 
-## 📖 Unidades Curriculares
+## Unidades Curriculares
 
 
  Inteligência Artificial      
@@ -66,7 +66,7 @@ As principais melhorias são moderação, filtros por estágio/categoria e revis
 
 ---
 
-## 📫 Contato
+##  Contato
 
 **Alisson Gustavo Barros Evangelista**
 
@@ -74,5 +74,5 @@ As principais melhorias são moderação, filtros por estágio/categoria e revis
 
 ---
 
-> 🎓 **Portfólio Acadêmico**
+>  **Portfólio Acadêmico**
 > *Aprendizado, projetos e evolução durante minha formação em Análise e Desenvolvimento de Sistemas.*
