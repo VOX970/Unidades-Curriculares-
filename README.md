@@ -70,7 +70,8 @@ As principais melhorias são moderação, filtros por estágio/categoria e revis
 
 **Alisson Gustavo Barros Evangelista**
 
-GitHub : ([https://github.com/](https://github.com/VOX970?tab=repositories) · E-mail :alisssongustavorei13@gmail.com
+GitHub :(https://github.com/VOX970?tab=repositories) 
+E-mail :alisssongustavorei13@gmail.com
 
 ---
 
